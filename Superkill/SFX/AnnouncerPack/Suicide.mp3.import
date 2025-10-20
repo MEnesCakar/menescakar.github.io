@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Suicide.mp3-f2823c7bbfa22547eacda013c110c82a.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/Suicide.mp3"
+dest_files=[ "res://.import/Suicide.mp3-f2823c7bbfa22547eacda013c110c82a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

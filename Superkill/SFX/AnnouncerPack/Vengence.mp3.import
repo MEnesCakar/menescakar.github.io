@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Vengence.mp3-aba0e978d665bf896dbd66281fd7c366.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/Vengence.mp3"
+dest_files=[ "res://.import/Vengence.mp3-aba0e978d665bf896dbd66281fd7c366.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

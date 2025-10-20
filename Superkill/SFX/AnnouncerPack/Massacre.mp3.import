@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Massacre.mp3-fd6e79027bc9fffdeb4cce73f066dd12.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/Massacre.mp3"
+dest_files=[ "res://.import/Massacre.mp3-fd6e79027bc9fffdeb4cce73f066dd12.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

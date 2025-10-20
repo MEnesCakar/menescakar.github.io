@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="" xml:lang="">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<title>Superkill.io</title>
+		<style type="text/css">
+			html {
+				height: 100%;
+			}
+			body {
+				touch-action: none;
+				margin: 0;
+				border: 0 none;
+				padding: 0;
+				text-align: center;
+				min-height: 100%;
+				background-color: black;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+
+			#canvas {
+				display: block;
+				margin: 0;
+				color: white;
+			}
+
+			#canvas:focus {
+				outline: none;
+			}
+
+			.godot {
+				font-family: "Noto Sans", "Droid Sans", Arial, sans-serif;
+				color: #e0e0e0;
+				background-color: #3b3943;
+				background-image: linear-gradient(to bottom, #403e48, #35333c);
+				border: 1px solid #45434e;
+				box-shadow: 0 0 1px 1px #2f2d35;
+			}
+
+			/* Status display
+			* ============== */
+
+			#status {
+				position: relative;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				display: inline-block;
+				justify-content: center;
+				align-items: center;
+				/* don't consume click events - make children visible explicitly */
+				/* visibility: hidden; */
+			}
+
+			#status_text {
+				margin-top: 14px;
+				font-family: "Noto Sans", "Droid Sans", Arial, sans-serif;
+				color: #e0e0e0;
+				stroke: #2b2b2b;
+				stroke-width: 2px;
+				font-size: x-large;
+				align-items: center;
+			}
+
+			#status-progress {
+				width: 400px;
+				height: 35px;
+				background-color: #e0e0e050;
+				padding: 1px;
+				margin-top: 10px;
+				align-items: center;
+				justify-content: center;
+				border-radius: 2px;
+				/* visibility: hidden; */
+			}
+
+			@media only screen and (orientation: portrait) {
+				#status-progress {
+					width: 50%;
+					transform: translate(50%, 0);
+				}
+			}
+
+			#loader {
+				position: absolute;
+				top: 55%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			#logo {
+				width: 320px; /* Adjust the logo size */
+				height: auto;
+				display: block; /* Ensure the logo is treated as a block element */
+				margin: 0 auto; /* Center horizontally */
+			}
+
+			#status-progress-inner {
+				height: 100%;
+				width: 0;
+				box-sizing: border-box;
+				transition: width 0.5s linear;
+				background-color: #ffffff;
+				border-radius: 3px;
+			}
+
+			#status-indeterminate {
+				height: 42px;
+				visibility: hidden;
+				position: relative;
+			}
+
+			#status-indeterminate > div {
+				width: 4.5px;
+				height: 0;
+				border-style: solid;
+				border-width: 9px 3px 0 3px;
+				border-color: #2b2b2b transparent transparent transparent;
+				transform-origin: center 21px;
+				position: absolute;
+			}
+
+			#status-indeterminate > div:nth-child(1) {
+				transform: rotate(22.5deg);
+			}
+			#status-indeterminate > div:nth-child(2) {
+				transform: rotate(67.5deg);
+			}
+			#status-indeterminate > div:nth-child(3) {
+				transform: rotate(112.5deg);
+			}
+			#status-indeterminate > div:nth-child(4) {
+				transform: rotate(157.5deg);
+			}
+			#status-indeterminate > div:nth-child(5) {
+				transform: rotate(202.5deg);
+			}
+			#status-indeterminate > div:nth-child(6) {
+				transform: rotate(247.5deg);
+			}
+			#status-indeterminate > div:nth-child(7) {
+				transform: rotate(292.5deg);
+			}
+			#status-indeterminate > div:nth-child(8) {
+				transform: rotate(337.5deg);
+			}
+
+			#status-notice {
+				margin: 0 100px;
+				line-height: 1.3;
+				visibility: visible;
+				padding: 4px 6px;
+				visibility: visible;
+			}
+		</style>
+		<!-- Poki SDK include -->
+		<script src="//game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
+		<script>
+			//Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
+			document.onkeydown = function (e) {
+				e = e || window.event; //Get event
+
+				if (!e.ctrlKey) return;
+
+				var code = e.which || e.keyCode; //Get key code
+
+				switch (code) {
+					case 83: //Block Ctrl+S
+					case 87: //Block Ctrl+W -- Not work in Chrome and new Firefox
+						e.preventDefault();
+						e.stopPropagation();
+						break;
+				}
+			};
+
+			window.addEventListener("keydown", (ev) => {
+				if (["ArrowDown", "ArrowUp", " "].includes(ev.key)) {
+					ev.preventDefault();
+				}
+			});
+			window.addEventListener("wheel", (ev) => ev.preventDefault(), { passive: false });
+		</script>
+
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="Superkill.icon.png" />
+		<link rel="apple-touch-icon" href="Superkill.apple-touch-icon.png" />
+
+		<script>
+			//place sitelock code here.
+		</script>
+	</head>
+	<body>
+		<canvas id="canvas">
+			HTML5 canvas appears to be unsupported in the current browser.<br />
+			Please try updating or use a different browser.
+		</canvas>
+
+		<div id="loader">
+			<img id="logo" src="superkillshape.svg" alt="Logo" />
+			<div id="status">
+				<div id="status_text">Loading...</div>
+				<div id="status-progress" oncontextmenu="event.preventDefault();">
+					<div id="status-progress-inner"></div>
+				</div>
+				<div id="status-indeterminate" oncontextmenu="event.preventDefault();"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="Superkill.js"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+			var lastLoadPercent = 0;
+
+			const GODOT_CONFIG = {
+				args: [],
+				canvasResizePolicy: 2,
+				executable: "Superkill",
+				experimentalVK: true,
+				fileSizes: { "Superkill.pck": 45747216, "Superkill.wasm": 13790961 },
+				focusCanvas: true,
+				gdnativeLibs: [],
+			};
+
+			const funnyLoadingTexts = [
+				"Polishing Weapons...",
+				"Warming Up For Action...",
+				"Gathering Chickens...",
+				"Tailoring Costumes...",
+				"Organizing Accessories...",
+				"Carefully Placing Grenades...",
+				"Vaxxing For Chicken Pox...",
+				"Charging Up Jump Pads...",
+				"Sanding Ziplines...",
+				"Placing Weapons...",
+				"Flipping Cars...",
+				"Persuading Chickens To Participate...",
+				"Stacking Containers...",
+				"Finding Other Players...",
+				"Cooking Gunpowder...",
+			];
+
+			var bgArray = ["illustration01.jpg", "illustration02.jpg"];
+			var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+			document["body"].style.backgroundImage = "url(" + bg + ")";
+			selectedText = funnyLoadingTexts[Math.floor(Math.random() * funnyLoadingTexts.length)];
+
+			var engine = new Engine(GODOT_CONFIG);
+
+			function startGameLoading() {
+				const INDETERMINATE_STATUS_STEP_MS = 100;
+				var statusProgress = document.getElementById("status-progress");
+				var statusProgressInner = document.getElementById("status-progress-inner");
+				var statusIndeterminate = document.getElementById("status-indeterminate");
+				var statusNotice = document.getElementById("status-notice");
+				var statusText = document.getElementById("status_text");
+				statusText.innerText = selectedText;
+				var initializing = true;
+				var statusMode = "block";
+
+				var animationCallbacks = [];
+				function animate(time) {
+					animationCallbacks.forEach((callback) => callback(time));
+					requestAnimationFrame(animate);
+				}
+				requestAnimationFrame(animate);
+
+				function setStatusMode(mode) {
+					if (statusMode === mode || !initializing) return;
+
+					animationCallbacks = animationCallbacks.filter(function (value) {
+						return value != animateStatusIndeterminate;
+					});
+					switch (mode) {
+						case "progress":
+							statusProgress.style.display = "block";
+							break;
+						case "indeterminate":
+							statusIndeterminate.style.display = "block";
+							animationCallbacks.push(animateStatusIndeterminate);
+							break;
+						case "notice":
+							statusNotice.style.display = "block";
+							break;
+						case "hidden":
+							break;
+						default:
+							throw new Error("Invalid status mode");
+					}
+					statusMode = mode;
+				}
+
+				function animateStatusIndeterminate(ms) {
+					var i = Math.floor((ms / INDETERMINATE_STATUS_STEP_MS) % 8);
+					if (statusIndeterminate.children[i].style.borderTopColor == "") {
+						Array.prototype.slice.call(statusIndeterminate.children).forEach((child) => {
+							child.style.borderTopColor = "";
+						});
+						statusIndeterminate.children[i].style.borderTopColor = "#dfdfdf";
+					}
+				}
+
+				function setStatusNotice(text) {
+					while (statusNotice.lastChild) {
+						statusNotice.removeChild(statusNotice.lastChild);
+					}
+					var lines = text.split("\n");
+					lines.forEach((line) => {
+						statusNotice.appendChild(document.createTextNode(line));
+						statusNotice.appendChild(document.createElement("br"));
+					});
+				}
+
+				function displayFailureNotice(err) {
+					var msg = err.message || err;
+					console.error(msg);
+					setStatusNotice(msg);
+					setStatusMode("notice");
+					initializing = false;
+				}
+
+				if (!Engine.isWebGLAvailable()) {
+					displayFailureNotice("WebGL not available");
+				} else {
+					setStatusMode("indeterminate");
+					PokiSDK.gameLoadingStart();
+					engine
+						.startGame({
+							onProgress: function (current, total) {
+								if (total > 0) {
+									statusProgressInner.style.width = (current / total) * 100 + "%";
+									setStatusMode("progress");
+									if (current / total > lastLoadPercent + 0.15) {
+										var selectedText =
+											funnyLoadingTexts[Math.floor(Math.random() * funnyLoadingTexts.length)];
+										while (selectedText == statusText.innerText) {
+											selectedText =
+												funnyLoadingTexts[Math.floor(Math.random() * funnyLoadingTexts.length)];
+										}
+										statusText.innerText = selectedText;
+										lastLoadPercent = current / total;
+									}
+
+									if (current === total) {
+										// wait for progress bar animation
+										setTimeout(() => {
+											setStatusMode("indeterminate");
+										}, 500);
+									}
+								} else {
+									setStatusMode("indeterminate");
+								}
+							},
+						})
+						.then(() => {
+							setStatusMode("hidden");
+							const loader = document.getElementById("loader");
+							if (loader) {
+								loader.style.display = "none"; // Hide the loader
+							}
+							initializing = false;
+							PokiSDK.gameLoadingFinished();
+						}, displayFailureNotice);
+				}
+			}
+
+			//Poki SDK Init.
+			PokiSDK.init()
+				.then(() => {
+					startGameLoading();
+				})
+				.catch(() => {
+					startGameLoading();
+				});
+
+			let hn = window.location.hostname;
+			if (hn == "localhost" || hn == "127.0.0.1") {
+				PokiSDK.setDebug(true);
+			}
+			//]]>
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Headshot.mp3-0d3004083477e77f86fd3ef8ce517cab.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/Headshot.mp3"
+dest_files=[ "res://.import/Headshot.mp3-0d3004083477e77f86fd3ef8ce517cab.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

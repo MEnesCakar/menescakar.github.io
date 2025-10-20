@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/UltraKill.mp3-9d9fe5138477595522a8292aa792374a.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/UltraKill.mp3"
+dest_files=[ "res://.import/UltraKill.mp3-9d9fe5138477595522a8292aa792374a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

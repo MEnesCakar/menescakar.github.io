@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Assassination.mp3-c256a008efffc2e81491053f7eceaef6.mp3str"
+
+[deps]
+
+source_file="res://SFX/Announcer Pack/Assassination.mp3"
+dest_files=[ "res://.import/Assassination.mp3-c256a008efffc2e81491053f7eceaef6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
