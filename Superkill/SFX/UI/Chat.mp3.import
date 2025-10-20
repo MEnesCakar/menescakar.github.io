@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Chat.mp3-8cf8cf396402f69e93310af8ca8ccede.mp3str"
+
+[deps]
+
+source_file="res://SFX/UI/Chat.mp3"
+dest_files=[ "res://.import/Chat.mp3-8cf8cf396402f69e93310af8ca8ccede.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

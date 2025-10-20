@@ -1,0 +1,195 @@
+{
+	"frames": {
+		"player-shield_impact_0.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_1.png": {
+			"frame": {
+				"x": 634,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_2.png": {
+			"frame": {
+				"x": 1268,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_3.png": {
+			"frame": {
+				"x": 0,
+				"y": 482,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_4.png": {
+			"frame": {
+				"x": 0,
+				"y": 964,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_5.png": {
+			"frame": {
+				"x": 0,
+				"y": 1446,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_6.png": {
+			"frame": {
+				"x": 634,
+				"y": 482,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_7.png": {
+			"frame": {
+				"x": 1268,
+				"y": 482,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		},
+		"player-shield_impact_8.png": {
+			"frame": {
+				"x": 634,
+				"y": 964,
+				"w": 634,
+				"h": 482
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 634,
+				"h": 482
+			},
+			"sourceSize": {
+				"w": 634,
+				"h": 482
+			}
+		}
+	},
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1902,
+			"h": 1928
+		},
+		"scale": 1
+	}
+}

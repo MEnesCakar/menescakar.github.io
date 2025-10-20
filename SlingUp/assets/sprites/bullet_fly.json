@@ -1,0 +1,303 @@
+{
+  "frames": {
+    "player-bullet_fly_0.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 194,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 1,
+        "w": 194,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_11.png": {
+      "frame": {
+        "x": 194,
+        "y": 0,
+        "w": 194,
+        "h": 76
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 1,
+        "w": 194,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_1.png": {
+      "frame": {
+        "x": 194,
+        "y": 76,
+        "w": 193,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 1,
+        "w": 193,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_10.png": {
+      "frame": {
+        "x": 0,
+        "y": 77,
+        "w": 193,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 1,
+        "w": 193,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_4.png": {
+      "frame": {
+        "x": 0,
+        "y": 155,
+        "w": 184,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 4,
+        "w": 184,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_2.png": {
+      "frame": {
+        "x": 184,
+        "y": 155,
+        "w": 191,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 2,
+        "w": 191,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_9.png": {
+      "frame": {
+        "x": 184,
+        "y": 236,
+        "w": 190,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 2,
+        "w": 190,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_6.png": {
+      "frame": {
+        "x": 0,
+        "y": 240,
+        "w": 184,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 4,
+        "w": 184,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_5.png": {
+      "frame": {
+        "x": 0,
+        "y": 324,
+        "w": 183,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 4,
+        "w": 183,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_3.png": {
+      "frame": {
+        "x": 0,
+        "y": 409,
+        "w": 187,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 3,
+        "w": 187,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_7.png": {
+      "frame": {
+        "x": 183,
+        "y": 324,
+        "w": 186,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 3,
+        "w": 186,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "player-bullet_fly_8.png": {
+      "frame": {
+        "x": 187,
+        "y": 407,
+        "w": 188,
+        "h": 82
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 2,
+        "w": 188,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 201,
+        "h": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 512
+    },
+    "scale": 1
+  }
+}

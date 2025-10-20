@@ -1,0 +1,135 @@
+{
+	"frames": {
+		"fire01_0.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 190,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 10,
+				"y": 0,
+				"w": 190,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 90
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fire01_1.png": {
+			"frame": {
+				"x": 193,
+				"y": 1,
+				"w": 190,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 10,
+				"y": 0,
+				"w": 190,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 90
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fire01_2.png": {
+			"frame": {
+				"x": 385,
+				"y": 1,
+				"w": 167,
+				"h": 89
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 27,
+				"y": 0,
+				"w": 167,
+				"h": 89
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 90
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fire01_3.png": {
+			"frame": {
+				"x": 554,
+				"y": 1,
+				"w": 147,
+				"h": 87
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 37,
+				"y": 3,
+				"w": 147,
+				"h": 87
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 90
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fire01_4.png": {
+			"frame": {
+				"x": 703,
+				"y": 1,
+				"w": 145,
+				"h": 86
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 39,
+				"y": 2,
+				"w": 145,
+				"h": 86
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 90
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	},
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 849,
+			"h": 92
+		},
+		"scale": 1
+	}
+}

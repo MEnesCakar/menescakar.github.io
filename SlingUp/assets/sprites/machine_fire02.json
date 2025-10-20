@@ -1,0 +1,279 @@
+{
+	"frames": {
+		"fx_fire02_machine_8.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 180,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 180,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_7.png": {
+			"frame": {
+				"x": 183,
+				"y": 1,
+				"w": 168,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 168,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_9.png": {
+			"frame": {
+				"x": 353,
+				"y": 1,
+				"w": 168,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 168,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_10.png": {
+			"frame": {
+				"x": 523,
+				"y": 1,
+				"w": 157,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 157,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_6.png": {
+			"frame": {
+				"x": 682,
+				"y": 1,
+				"w": 155,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 155,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_0.png": {
+			"frame": {
+				"x": 839,
+				"y": 1,
+				"w": 151,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 151,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_1.png": {
+			"frame": {
+				"x": 992,
+				"y": 1,
+				"w": 149,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 149,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_2.png": {
+			"frame": {
+				"x": 1143,
+				"y": 1,
+				"w": 143,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 143,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_5.png": {
+			"frame": {
+				"x": 1288,
+				"y": 1,
+				"w": 142,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 142,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_3.png": {
+			"frame": {
+				"x": 1432,
+				"y": 1,
+				"w": 136,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 136,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"fx_fire02_machine_4.png": {
+			"frame": {
+				"x": 1570,
+				"y": 1,
+				"w": 129,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 12,
+				"y": 10,
+				"w": 129,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 210,
+				"h": 169
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	},
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1700,
+			"h": 154
+		},
+		"scale": 1
+	}
+}

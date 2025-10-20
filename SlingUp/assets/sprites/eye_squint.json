@@ -1,0 +1,87 @@
+{
+	"frames": {
+		"player-third_eye_squint_0.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 331,
+				"h": 214
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 53,
+				"y": 19,
+				"w": 331,
+				"h": 214
+			},
+			"sourceSize": {
+				"w": 424,
+				"h": 270
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-third_eye_squint_1.png": {
+			"frame": {
+				"x": 331,
+				"y": 0,
+				"w": 329,
+				"h": 190
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 54,
+				"y": 33,
+				"w": 329,
+				"h": 190
+			},
+			"sourceSize": {
+				"w": 424,
+				"h": 270
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-third_eye_squint_2.png": {
+			"frame": {
+				"x": 660,
+				"y": 0,
+				"w": 329,
+				"h": 163
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 54,
+				"y": 41,
+				"w": 329,
+				"h": 163
+			},
+			"sourceSize": {
+				"w": 424,
+				"h": 270
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	},
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 989,
+			"h": 214
+		},
+		"scale": 1
+	}
+}

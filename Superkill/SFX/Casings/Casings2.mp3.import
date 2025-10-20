@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Casings2.mp3-172bb001fe460a81114616bdccb91be0.mp3str"
+
+[deps]
+
+source_file="res://SFX/Casings/Casings2.mp3"
+dest_files=[ "res://.import/Casings2.mp3-172bb001fe460a81114616bdccb91be0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

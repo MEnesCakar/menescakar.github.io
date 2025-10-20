@@ -1,0 +1,165 @@
+{
+  "frames": [
+    {
+      "filename": "lifeupgrade_panel",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 513,
+        "h": 614
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 513,
+        "h": 614
+      },
+      "sourceSize": {
+        "w": 513,
+        "h": 614
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "newcharacter_panel",
+      "frame": {
+        "x": 2,
+        "y": 620,
+        "w": 513,
+        "h": 614
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 513,
+        "h": 614
+      },
+      "sourceSize": {
+        "w": 513,
+        "h": 614
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "glow",
+      "frame": {
+        "x": 2,
+        "y": 1238,
+        "w": 508,
+        "h": 509
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 508,
+        "h": 509
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "equip_btn",
+      "frame": {
+        "x": 2,
+        "y": 1751,
+        "w": 233,
+        "h": 88
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 233,
+        "h": 88
+      },
+      "sourceSize": {
+        "w": 233,
+        "h": 88
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "play_btn",
+      "frame": {
+        "x": 2,
+        "y": 1843,
+        "w": 124,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 124,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 124,
+        "h": 77
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "close_blue",
+      "frame": {
+        "x": 2,
+        "y": 1924,
+        "w": 59,
+        "h": 59
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 59
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "unlockMenu.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 517,
+      "h": 1985
+    },
+    "scale": 1
+  }
+}
