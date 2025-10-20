@@ -156,8 +156,6 @@
 				visibility: visible;
 			}
 		</style>
-		<!-- Poki SDK include -->
-		<script src="//game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
 		<script>
 			//Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
 			document.onkeydown = function (e) {
@@ -324,7 +322,6 @@
 					displayFailureNotice("WebGL not available");
 				} else {
 					setStatusMode("indeterminate");
-					PokiSDK.gameLoadingStart();
 					engine
 						.startGame({
 							onProgress: function (current, total) {
@@ -360,23 +357,14 @@
 								loader.style.display = "none"; // Hide the loader
 							}
 							initializing = false;
-							PokiSDK.gameLoadingFinished();
 						}, displayFailureNotice);
 				}
 			}
 
-			//Poki SDK Init.
-			PokiSDK.init()
-				.then(() => {
-					startGameLoading();
-				})
-				.catch(() => {
-					startGameLoading();
-				});
+			startGameLoading();
 
 			let hn = window.location.hostname;
 			if (hn == "localhost" || hn == "127.0.0.1") {
-				PokiSDK.setDebug(true);
 			}
 			//]]>
 		</script>
