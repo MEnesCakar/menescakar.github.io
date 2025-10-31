@@ -1,0 +1,303 @@
+{
+	"frames": {
+		"player-level-up_6.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 194,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 194,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_5.png": {
+			"frame": {
+				"x": 197,
+				"y": 1,
+				"w": 193,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 193,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_4.png": {
+			"frame": {
+				"x": 392,
+				"y": 1,
+				"w": 192,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_2.png": {
+			"frame": {
+				"x": 586,
+				"y": 1,
+				"w": 192,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_3.png": {
+			"frame": {
+				"x": 780,
+				"y": 1,
+				"w": 192,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_0.png": {
+			"frame": {
+				"x": 974,
+				"y": 1,
+				"w": 190,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 2,
+				"y": 0,
+				"w": 190,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_1.png": {
+			"frame": {
+				"x": 1166,
+				"y": 1,
+				"w": 190,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 2,
+				"y": 0,
+				"w": 190,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_11.png": {
+			"frame": {
+				"x": 1166,
+				"y": 1,
+				"w": 190,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 2,
+				"y": 0,
+				"w": 190,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_10.png": {
+			"frame": {
+				"x": 586,
+				"y": 1,
+				"w": 192,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_9.png": {
+			"frame": {
+				"x": 780,
+				"y": 1,
+				"w": 192,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_8.png": {
+			"frame": {
+				"x": 392,
+				"y": 1,
+				"w": 192,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 192,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"player-level-up_7.png": {
+			"frame": {
+				"x": 197,
+				"y": 1,
+				"w": 193,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 0,
+				"w": 193,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 194,
+				"h": 104
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	},
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1357,
+			"h": 106
+		},
+		"scale": 1
+	}
+}
